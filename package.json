@@ -1,0 +1,1 @@
+{"name":"breakhunt-codeql","version":"1.0.0","scripts":{"test":"node -e \"require('./src/app'); console.log('ok')\""}}
