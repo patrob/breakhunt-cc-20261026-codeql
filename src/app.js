@@ -1,6 +1,6 @@
 const { writeTemp } = require('./writeTmp');
 function handle(input) {
-  // baseline: no user-controlled flow into sink yet
-  return writeTemp('static');
+  // PR introduces user-controlled flow into sink in unchanged writeTmp.js
+  return writeTemp(String(input));
 }
 module.exports = { handle };
