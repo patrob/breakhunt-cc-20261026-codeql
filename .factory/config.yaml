@@ -1,0 +1,7 @@
+# On PAR Dev's Software Factory repo config. Every key is documented in docs/config.example.yaml.
+version: 2
+
+checks:
+  test: npm test
+merge:
+  auto: false
